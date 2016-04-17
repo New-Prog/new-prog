@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+// Route::get('/teste', function () {
+//     return "Teste";
+// });
+
+Route::get('/contatos', "ContatoController@getContatos");
